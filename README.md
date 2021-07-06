@@ -7,5 +7,5 @@ Please note most of the source files in this project were generated using the px
 The source code for pxt.dll exists in this repo: https://github.com/microsoft/pxt-common-packages
 
 TODO:
-	- [ ] Include instructions to generate pxt source
-	- [ ] Merge changes for MSVC back to pxt repo
+- [ ] Include instructions to generate pxt source
+- [ ] Merge changes for MSVC back to pxt repo
