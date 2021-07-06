@@ -4,7 +4,7 @@ The native pxt runtime (pxt.dll) is traditionally built using a gcc toolchain. T
 
 Please note most of the source files in this project were generated using the pxt CLI, located here: https://github.com/microsoft/pxt/. The codebase in this repo is a snapshot in time of generated source.
 
-The source code for pxt.dll exists in this repo: https://github.com/microsoft/pxt-common-packages
+The actual source code for pxt.dll exists in this repo: https://github.com/microsoft/pxt-common-packages
 
 TODO:
 - [ ] Include instructions to generate pxt source
