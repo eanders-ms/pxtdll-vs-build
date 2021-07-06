@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="configkeys.h" />
+    <ClInclude Include="pins.h" />
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="platform_includes.h" />
+    <ClInclude Include="pxt.h" />
+    <ClInclude Include="pxtbase.h" />
+    <ClInclude Include="pxtconfig.h" />
+    <ClInclude Include="pxtcore.h" />
+    <ClInclude Include="vm.h" />
+    <ClInclude Include="mixer---ext\melody.h">
+      <Filter>mixer---ext</Filter>
+    </ClInclude>
+    <ClInclude Include="mixer---ext\SoundOutput.h">
+      <Filter>mixer---ext</Filter>
+    </ClInclude>
+    <ClInclude Include="pxt_thread.h" />
+    <ClInclude Include="pxt_time.h" />
+    <ClInclude Include="pxt_stdio.h" />
+    <ClInclude Include="pxt_dirent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pointers.cpp" />
+    <ClCompile Include="base\advmath.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\buffer.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\control-b.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\controlgc.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\core.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gc.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\loops.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\pxt.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\trig.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\codalemu.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\config.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\control.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\keys.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\platform.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\scheduler.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\target.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\verify.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\vm.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\vmcache.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="core---vm\vmload.cpp">
+      <Filter>core---vm</Filter>
+    </ClCompile>
+    <ClCompile Include="game\controllerbuttons.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\targetoverrides.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="mixer---ext\melody.cpp">
+      <Filter>mixer---ext</Filter>
+    </ClCompile>
+    <ClCompile Include="mixer---ext\sound.cpp">
+      <Filter>mixer---ext</Filter>
+    </ClCompile>
+    <ClCompile Include="screen---ext\image.cpp">
+      <Filter>screen---ext</Filter>
+    </ClCompile>
+    <ClCompile Include="screen---ext\panic.cpp">
+      <Filter>screen---ext</Filter>
+    </ClCompile>
+    <ClCompile Include="screen---ext\screen.cpp">
+      <Filter>screen---ext</Filter>
+    </ClCompile>
+    <ClCompile Include="settings---files\settings.cpp">
+      <Filter>settings---files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\pxt_thread.cpp" />
+    <ClCompile Include="base\pxt_stdio.cpp" />
+    <ClCompile Include="base\pxt_dirent.cpp" />
+    <ClCompile Include="base\pxt_time.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{81e2947b-e897-4747-822d-4fb441446e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core---vm">
+      <UniqueIdentifier>{c3007ae8-21a3-47fa-9ce5-bd4bb11585cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{9ca18592-5463-427f-80ff-d6642301b7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mixer---ext">
+      <UniqueIdentifier>{358c99bc-3e02-4be1-8fb9-78f02ac8d585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen---ext">
+      <UniqueIdentifier>{9f0947e0-950f-4164-a007-19cdf01ad011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settings---files">
+      <UniqueIdentifier>{e1b7f39c-425b-439a-bfc5-cd0751dee8a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
